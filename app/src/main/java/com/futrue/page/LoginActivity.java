@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
+    //test
     private EditText login_edit_account, login_edit_password;
     private RelativeLayout login_view_login;
     private TextView login_text_login, login_text_other, login_text_help;
