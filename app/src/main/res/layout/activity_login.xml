@@ -2,12 +2,14 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_centerInParent="true"
         android:gravity="center_horizontal"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:paddingBottom="55dp">
         <ImageView
             android:background="@drawable/font"
             android:layout_width="120dp"
@@ -16,11 +18,11 @@
             android:textSize="16sp"
             android:id="@+id/login_edit_account"
             android:paddingLeft="20dp"
-            android:hint="账号、邮箱或手机号"
+            android:hint="邮箱或手机号"
             android:background="@drawable/shape_login_input_yin"
             android:layout_marginTop="20dp"
             android:layout_width="300dp"
-            android:layout_height="60dp"/>
+            android:layout_height="55dp"/>
         <EditText
             android:textSize="16sp"
             android:id="@+id/login_edit_password"
@@ -29,13 +31,13 @@
             android:background="@drawable/shape_login_input_yin"
             android:layout_marginTop="20dp"
             android:layout_width="300dp"
-            android:layout_height="60dp"/>
+            android:layout_height="55dp"/>
         <RelativeLayout
             android:id="@+id/login_view_login"
             android:background="@drawable/shape_login_input_yang"
             android:layout_marginTop="20dp"
             android:layout_width="300dp"
-            android:layout_height="60dp">
+            android:layout_height="55dp">
             <TextView
                 android:id="@+id/login_text_login"
                 android:textSize="16sp"
@@ -68,4 +70,7 @@
                 android:layout_height="wrap_content"/>
         </RelativeLayout>
     </LinearLayout>
+
+
+
 </RelativeLayout>
